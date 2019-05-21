@@ -1,14 +1,14 @@
 import Firebase from 'firebase';
 
 let firebaseConfig = {
-    apiKey: "AIzaSyA6nxIY5dzsOz5wt1RQAM1N9Hd5CJS3erk",
-    authDomain: "react-native-gram.firebaseapp.com",
-    databaseURL: "https://react-native-gram.firebaseio.com",
-    projectId: "react-native-gram",
-    storageBucket: "react-native-gram.appspot.com",
-    messagingSenderId: "770463194344",
-    appId: "1:770463194344:web:a48bd586196a092f"
-  };
+  apiKey: "AIzaSyBXDJZv4i46xC3eRg-iQf_BI2s6i2_Aw7Q",
+  authDomain: "react-native-idlan.firebaseapp.com",
+  databaseURL: "https://react-native-idlan.firebaseio.com",
+  projectId: "react-native-idlan",
+  storageBucket: "react-native-idlan.appspot.com",
+  messagingSenderId: "635708758322",
+  appId: "1:635708758322:web:9cced9bc6784f914"
+};
 
 
   let app = Firebase.initializeApp(firebaseConfig);
